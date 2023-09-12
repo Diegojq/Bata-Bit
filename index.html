@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
@@ -95,7 +96,23 @@
             </div>
             <section class="plans-container-slider">
                 <article class="plans-container-card">
-                    <p class="recomendado">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card-price"><span>$</span>99</p>
+                        <p class="plan-card-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca"> Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card-price"><span>$</span>99</p>
+                        <p class="plan-card-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca"> Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
                     <div class="plan-info-container">
                         <h3 class="plan-card-title">Pago Anual</h3>
                         <p class="plan-card-price"><span>$</span>99</p>
@@ -104,8 +121,22 @@
                     </div>
                 </article>
             </section>
+
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Crunchbase</a></li>
+                <li><a href="">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <figure>
+                <img src="./assets/icons/Group 18.svg" alt="Logo Batatabit 2020">
+            </figure>
+        </section>
+    </footer>
 </body>
 </html>
